@@ -1,8 +1,11 @@
 import React from 'react'
+import NavBar from "./components/NavBar.jsx";
 
 const App = () => {
     return (
-        <h1>Hello, Apple Macbook Pro!</h1>
+        <main>
+            <NavBar />
+        </main>
     )
 }
 export default App
