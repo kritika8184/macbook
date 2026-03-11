@@ -1,5 +1,6 @@
 import React from 'react'
-import useMacBookStore from "../store/index.js";
+import clsx from 'clsx'
+import useMacBookStore from "../store";
 
 const ProductViewer = () => {
     const {color, scale, setColor, setScale} = useMacBookStore();
@@ -7,6 +8,7 @@ const ProductViewer = () => {
     return (
         <section id="product-viewer">
             <h2>Take a closer look.</h2>
+
             <div className="controls">
                 <p className="info">MacBookPro {scale} in {color}</p>
                 <div className="flex-center gap-5 mt-5">
