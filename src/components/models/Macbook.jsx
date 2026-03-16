@@ -57,4 +57,4 @@ export default function MacbookModel(props) {
     )
 }
 
-useGLTF.preload('/models/macbook-transformed.glb')
+useGLTF.preload(`${import.meta.env.BASE_URL}/models/macbook-transformed.glb`)
