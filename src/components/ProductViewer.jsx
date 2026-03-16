@@ -12,7 +12,7 @@ const ProductViewer = () => {
 
     return (
         <section id="product-viewer">
-            <h2>Take a closer look.</h2>
+            <h2 className={"flex justify-center"}>Take a closer look.</h2>
 
             <div className="controls">
                 <p className="info">MacBookPro is now available in in Space black | Silver in both 14" and 16"</p>
